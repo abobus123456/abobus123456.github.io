@@ -1,0 +1,108 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+  Главная
+{% endblock %}
+
+{% block content %}
+    <h1>Агрегатор <br>Конференций</h1>
+  
+  <br>
+  <label class="container">ФГБОУ ВО «Морской государственный университет имени адмирала Г.И. Невельского» (МГУ им. адм. Г.И. Невельского)
+    <input type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+  </label>
+
+  <label class="container">ФГБОУ ВО «Дальневосточный государственный университет путей сообщения» (ДВГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+
+  <label class="container">ФГБОУ ВО «Волжский государственный университет водного транспорта» (ВГУВТ)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+
+  <label class="container">ФГБОУ ВО «Самарский государственный университет путей сообщения» (СамГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+
+  <label class="container">ФГБОУ ВО «Ульяновский институт гражданской авиации имени Главного маршала авиации Б.П. Бугаева» (УИ ГА)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Государственный университет морского и речного флота имени адмирала С.О. Макарова» (ГУМРФ им. адм. С.О. Макарова)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Петербургский государственный университет путей сообщения Императора Александра I» (ПГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Санкт-Петербургский государственный университет гражданской авиации» (СПбГУ ГА)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Иркутский государственный университет путей сообщения» (ИрГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Сибирский государственный университет путей сообщения» (СГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Сибирский государственный университет водного транспорта» (СГУВТ)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Омский государственный университет путей сообщения» (ОмГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Уральский государственный университет путей сообщения» (УрГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Московский государственный технический университет гражданской авиации» (МГТУ ГА)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+
+  <label class="container">ФГАОУ ВО «Российский университет транспорта» (РУТ (МИИТ))
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Государственный морской университет имени адмирала Ф.Ф. Ушакова» (ГМУ им. адм. Ф.Ф. Ушакова)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">ФГБОУ ВО «Ростовский государственный университет путей сообщения» (РГУПС)
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+    
+  <label class="container">Ассоциация поддержки научных исследований
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+
+  <br>
+
+  <ul>
+    <a href="{% url 'conf' %}" class="pager">Готово  <i class="fa-solid fa-angle-right"></i></a>
+  </ul>
+
+
+{% endblock %}
